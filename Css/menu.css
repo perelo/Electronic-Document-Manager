@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+#logo
+{
+background: transparent url(../Img/logo.png) no-repeat;
+text-indent: -9999em;
+width: 10em;
+height: 55px;
+cursor : pointer;
+}
+
+#menu
+{
+margin: 5em auto 0 auto;
+width: 7em;
+}
+
+#menu li
+{
+margin-bottom: 0.4em;
+}
+
+#menu a
+{
+display: block;
+width: 7em;
+height: 2em;
+background-color: #fff;
+color: #000;
+text-align: center;
+font-weight: bold;
+padding-top: 0.5em;
+}
+
+#menu.consultation a
+{
+color: #fff;
+background-color: #f00;
+}
+
+#menu a:link, #menu a:visited
+{
+background-color: #fff;
+color: #000;
+}
+
+#menu a:hover
+{
+background-color: #999;
+color: #fff;
+}

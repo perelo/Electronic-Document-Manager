@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+button
+{
+background-repeat: no-repeat;
+background-color: transparent;
+width: 16px;
+height: 16px;
+cursor: pointer;
+border: 0;
+margin: 2px;
+text-indent: -9999px;
+vertical-align: middle;
+}
+
+button.new
+{
+background-image: url(../Img/new.png);
+}
+
+button.print
+{
+background-image: url(../Img/print.png);
+}
+
+button.save
+{
+background-image: url(../Img/save.png);
+}
+
+button.pdf
+{
+background-image: url(../Img/pdf.png);
+}
+
+button.delete
+{
+background-image: url(../Img/delete.png);
+}
+
+button.delPdf
+{
+background-image: url(../Img/delPdf.png);
+}
+
+button.modify
+{
+background-image: url(../Img/modify.png);
+}

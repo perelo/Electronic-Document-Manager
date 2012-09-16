@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#form
+{
+margin: 2em auto;
+width: 25em;
+text-align: left;
+}
+
+#form fieldset
+{
+border: 3px solid #738dc0;
+-moz-border-radius: 15px; /* non valide CSS2 en attente CSS3 */ 
+padding: 0.5em;
+}
+
+#form legend
+{
+background: #d0d6e9;
+color: #405c90;
+font-weight: bold;
+margin-left: 0.7em;
+padding-left: 0.7em;
+padding-right: 0.7em;
+border: 2px solid #738dc0;
+-moz-border-radius: 15px; /* non valide CSS2 en attente CSS3 */
+}
+
+#form p
+{
+padding: 0.5em;
+text-align: center;
+clear: both;
+}
+
+#form label
+{
+display: block;
+float: left;
+width: 5em;
+text-align: right;
+font-weight: bold;
+}

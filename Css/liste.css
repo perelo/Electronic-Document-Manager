@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+
+.tableau
+{
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+
+.tableau #Head
+{
+color: #405C90;
+-moz-border-radius: 10px 10px 0 0;
+-moz-border-radius:black;
+border-style:none;
+padding-left: 40px;
+padding-right: 40px;
+
+/*width: 400px;*/
+}
+
+#Head.theme
+{
+font-size: 15px;
+}
+
+#Head.doc
+{
+font-size: 14px;
+}
+
+#Head.themes
+{
+font-size: 13px;
+font-weight: normal;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.tableau th
+{
+background: #a8c9c9;
+color: #000;
+height: 18px;
+}
+
+.tableau th, td
+{ 
+border: 1px solid black;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#Corps
+{
+background: #D0E9E9;
+color: #000; 
+}
+
+#L1Carac
+{
+text-align:right;
+font-weight: bold;
+}
+
+h2
+{
+text-align:center;
+margin-top: 4em;
+font-size : 1.5em;
+}
+
+.tableau tr.ligne0, tr.ligne0/* a*/
+{
+background: #d0e9e9;
+color: #000; 
+padding-left: 4px;
+padding-right: 4px;
+}
+
+.tableau tr.ligne0:hover
+{
+background-color: #adc2a7;
+color: #000; 
+}
+
+.tableau tr.ligne1, tr.ligne1/* a*/
+{
+background: #b7dadb;
+color: #000; 
+padding-left: 4px;
+padding-right: 4px;
+}
+
+.tableau tr.ligne1:hover
+{
+background-color: #adc2a7;
+color: #000; 
+}
+
+.tableau #carac
+{
+background-color: #D0E9E9;
+color: #000;
+border: none;
+}
+
+.tableau #carac .nom_carac
+{
+text-align: right;
+font-weight: bold;
+border: none;
+/*padding-right: 10px;*/
+}
+
+.tableau td.inputTheme
+{
+background-color: #fff;
+color: #405C90;
+padding-top: 2px;
+padding-bottom: 1px;
+text-align: center;
+}
+
+.tableau .inputTheme input
+{
+background-color: #a8c9c9;
+text-align: center;
+font-size: 13px;
+height: 12px;
+}
